@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ExpressRCP</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>ExpressRCP</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/services" class="nav-link">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact" class="nav-link active">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="page-header">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our team to discuss your project</p>
+            </section>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's Work Together</h2>
+                    <p>Ready to start your next project? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>hello@expressrcp.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h3>Address</h3>
+                                <p>123 Tech Street<br>San Francisco, CA 94105</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday<br>9:00 AM - 5:00 PM PST</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" action="#" method="POST">
+                        <h3>Send us a Message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="mobile-design">Mobile-First Design</option>
+                                <option value="maintenance">Maintenance & Support</option>
+                                <option value="devops">DevOps & Deployment</option>
+                                <option value="ui-ux">UI/UX Design</option>
+                                <option value="analytics">Analytics & Optimization</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="over-50k">Over $50,000</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project, goals, and any specific requirements..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <section class="faq">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How long does a typical project take?</h3>
+                        <p>Project timelines vary depending on complexity. Simple websites typically take 2-4 weeks, while complex applications can take 2-6 months. We'll provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Do you provide ongoing support?</h3>
+                        <p>Yes! We offer various support packages including maintenance, updates, and technical support. All projects include a minimum support period, with extended support options available.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>What technologies do you work with?</h3>
+                        <p>We work with modern web technologies including Node.js, Express, React, Vue.js, MongoDB, PostgreSQL, and various cloud platforms. We choose the best technology stack for your specific needs.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Can you help with existing projects?</h3>
+                        <p>Absolutely! We can help improve, maintain, or add new features to existing applications. We're experienced in working with legacy code and modernizing older systems.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ExpressRCP. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
